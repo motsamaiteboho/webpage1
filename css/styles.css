@@ -1,0 +1,82 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1b4332;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+.intro {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 2em;
+}
+
+.intro h1{
+    font-size: 3em;
+}
+.visitcity img{
+    float:left;
+    margin-left: 2em;
+    margin-right: 4em;;
+}
+
+.Historicplaces {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Historicplaces img{
+    float: left;
+    margin-right: 1em;
+}
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+table,th,td {
+    border: 2px solid;
+    padding-left:1em;
+}
+table{
+    border-collapse:collapse;
+    width:50%;
+}
+.oreignlanguages{
+    clear: both;
+}
+@media all and (max-width: 800px){
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .intro h1{
+        font-size: 2em;
+    }
+    .visitcity p{
+       clear: both;
+    }
+    .visitcity img{
+        margin: 0;
+        margin-bottom: 1em;
+        width: 100%;
+    } 
+    table {
+        width:100%;
+    }
+    .Historicplaces {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .place1 img{
+        float: right;
+        margin-right: 1em;
+    }
+    .place3 img{
+        float: right;
+        margin-right: 1em;
+    }
+}
