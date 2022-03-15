@@ -29,19 +29,24 @@ body {
 }
 
 .intro h1{
-    font-size: 3em;
+    font-size: 2em;
 }
 .visitcity img{
     float:left;
-    margin-left: 2em;
-    margin-right: 4em;;
+    margin-right: 2em;;
 }
 
 .Historicplaces {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.historicahaeder{
+    text-align: center;
 }
 
+.place1,.place2{
+    margin-right: 2em;
+}
 .Historicplaces img{
     float: left;
     margin-right: 1em;
@@ -54,9 +59,14 @@ table,th,td {
     border: 2px solid;
     padding-left:1em;
 }
+caption {
+    font-weight: bold;
+}
 table{
     border-collapse:collapse;
-    width:50%;
+    width: 100%;
+    margin: auto;
+    padding: auto;
 }
 .oreignlanguages{
     clear: both;
